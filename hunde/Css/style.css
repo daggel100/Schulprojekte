@@ -1,0 +1,57 @@
+/****************************************************/
+/* Allgemeines für die Seite                        */
+/****************************************************/
+
+/* Vorab festgelegt immer wieder gnutzte Farben usw.*/
+:root {
+    --meine_farbe1: #000;
+    --meine_farbe2: #c0c0c0;
+    --meine_farbe3: #404040;
+    --meine_farbe4: #666;
+    --meine_farbe5: #ffffff;
+    --meine_farbe6: rgba(0, 0, 0, .8);
+    --meine_farbe7: #fce3b1;
+    --meine_farbe8: #b9b9b9;
+    --meine_farbe9: #21759b;
+    --meine_farbe10: #fff;
+    --meine_farbe11: #333;
+    --meine_farbe12: #ff4b33;
+
+    --meine_background_farbe1: transparent;
+    --meine_background_farbe2: #ff0;
+    --meine_background_farbe3: #000000;
+    --meine_background_farbe4: #ccc;
+    --meine_background_farbe5: #bbb;
+    --meine_background_farbe6: #e6e6e6;
+    --meine_background_farbe7: #666;
+    --meine_background_farbe8: #2f2f2f;
+    --meine_background_farbe9: #f1f1f1;
+    --meine_background_farbe10: #656565;
+
+    --meine_box_schatten_farbe1: rgba(255, 255, 255, 0.5);
+    --meine_box_schatten_farbe2: rgba(0, 0, 0, 0.05);
+    --meine_box_schatten_farbe3: rgba(255, 255, 255, 0.8);
+    --meine_box_schatten_farbe4: rgba(0, 0, 0, 0.02);
+    --meine_box_schatten_farbe4: rgba(0, 0, 0, 0.15);
+    --meine_box_schatten_farbe5: rgba(162, 196, 251, 1);
+    --meine_box_schatten_farbe6: rgba(0, 0, 0, 0.6);
+
+    --meine_background_image_farbe1: #424242;
+
+    --meine_tex_schatten_farbe1: rgba(255, 255, 255, 0.8);
+
+    --meine_border_farbe1: #aaa;
+    --meine_border_farbe2: #0f0f0f;
+    --meine_border_farbe3: #fafafa;
+
+}
+
+/* Universal gilt für die ganze seite*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: #000000;
+}
+
