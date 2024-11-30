@@ -55,3 +55,37 @@
     background-color: #000000;
 }
 
+header {
+    /* Boxrahmen */
+    border: 1px solid var(--meine_border_farbe3);
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../image/Schaeferhund5.jpg), 
+                      url(../image/Schaeferhund1.jpg); 
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    background-position: right, left; 
+    /* transform: rotate(180deg); */
+    font-size: 10vw;
+    color: var(--meine_farbe7);
+    /* Seitentitel Mittig vertikal und horizontal*/
+    align-items: center;
+    justify-content: center;
+}
+    
+nav {
+    display: block;
+    border: 1px solid var(--meine_border_farbe3);
+    height: 5vh;
+    font-size: 3.5vw;
+    color: var(--meine_farbe7);
+    
+}
+
+ 
+
+
+
+
+
