@@ -75,13 +75,34 @@ header {
 }
     
 nav {
-    display: block;
+    display: flex;
     border: 1px solid var(--meine_border_farbe3);
-    height: 5vh;
-    font-size: 3.5vw;
-    color: var(--meine_farbe7);
-    
+    height: 6vh;
+    width: 100vw;
 }
+
+nav, ul{
+    display:flex;
+    list-style: disc;
+}
+
+nav, a{
+    display: flex;
+    line-height: 30px;
+    padding-left: 40px;
+    padding-right: 15px;
+    margin-top: 3.8px;
+    font-size: 1.6vw;
+    color: var(--meine_farbe7);
+    text-decoration-line: none;
+    text-align: center;
+    justify-content: center;
+    background: url(../image/unselectedpaw.png)left center no-repeat;
+}
+
+nav, li{
+    display: flex;
+} 
 
  
 
